@@ -6,7 +6,6 @@ import com.sun.net.httpserver.HttpServer;
 
 import java.io.*;
 import java.net.InetSocketAddress;
-import java.net.URLDecoder;
 import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -19,7 +18,8 @@ public class MyHttpServer {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        server.createContext("/test", new MyHandler());
+
+        server.createContext("/getFile", new GetFile());
         server.createContext("/getSongs", new GetSongs());
         server.setExecutor(null); // creates a default executor
         server.start();
@@ -56,21 +56,21 @@ public class MyHttpServer {
     }
 
 
-    static class MyHandler implements HttpHandler {
+    static class GetFile implements HttpHandler {
 
         @Override
         public void handle(HttpExchange t) throws IOException {
+            //Get requested file which was requested using the GET request
+
+            print("Query params = " + t.getRequestURI().getQuery());
+            print(Utility.getPostRequestBody(t.getRequestBody()));
 
             File file = new File("C:\\Users\\Natesh\\Desktop\\ae watan.mp3");
             print(file.toPath().toString());
 
             t.sendResponseHeaders(200, file.length());
 
-            print("Query params = " + t.getRequestURI().getQuery());
-            print(Utility.getPostRequestBody(t.getRequestBody()));
-
             OutputStream os = t.getResponseBody();
-
             Files.copy(file.toPath(), os);
             os.close();
         }

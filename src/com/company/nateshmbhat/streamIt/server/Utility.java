@@ -10,6 +10,7 @@ public class Utility {
 
     public static HashMap<String , String> parsePostRequest(String postbody){
         //Input string is a url encoded post body and hence has to be split right
+        System.out.println(postbody);
         HashMap<String , String> map  = new HashMap<>();
 
         for(String keyValue :  postbody.split("&"))
