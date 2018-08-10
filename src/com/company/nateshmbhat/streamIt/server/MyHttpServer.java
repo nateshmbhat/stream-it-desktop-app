@@ -1,5 +1,6 @@
 package com.company.nateshmbhat.streamIt.server ;
 
+import com.company.mzaink.Controller;
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 import com.sun.net.httpserver.HttpServer;
@@ -10,10 +11,12 @@ import java.net.InetSocketAddress;
 import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
 public class MyHttpServer {
     private static int myPort = 8090;
     private static String myIp ;
+    private List<File> mp3Files = new ArrayList<>();
 
     public static void main(String[] args) {
         print(File.separator) ;
@@ -34,10 +37,16 @@ public class MyHttpServer {
 
 
     static class GetSongs implements HttpHandler {
+        private  List<File> mp3Files;
+
         @Override
         public void handle(HttpExchange reqres) throws IOException {
 
 //          TODO : Call method to get an ArrayList of fullpath names : Sadiq call ur method here
+            if(Controller.getFilesFromFX() != null) {
+                mp3Files = Controller.getFilesFromFX();
+            }
+
 
             System.out.println("Running getSongs handler .. ");
 
