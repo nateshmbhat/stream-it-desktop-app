@@ -18,10 +18,9 @@ public class MyHttpServer {
     private static String myIp ;
     private List<File> mp3Files = new ArrayList<>();
 
-    public static void main(String[] args) {
+    public static void startServer() {
         print(File.separator) ;
         HttpServer server = null;
-
 
         try {
             server = HttpServer.create(new InetSocketAddress(myPort), 0);
@@ -47,14 +46,7 @@ public class MyHttpServer {
                 mp3Files = Controller.getFilesFromFX();
             }
 
-
             System.out.println("Running getSongs handler .. ");
-
-            ArrayList<String> allSongs = new ArrayList<>();
-            allSongs.add("C:\\Users\\Natesh\\Desktop\\ae watan.mp3");
-            allSongs.add("C:\\Users\\Natesh\\Desktop\\ae watan.mp3");
-            allSongs.add("C:\\Users\\Natesh\\Desktop\\ae watan.mp3");
-            allSongs.add("C:\\Users\\Natesh\\Desktop\\ae watan.mp3");
 
             HashMap<String,String> postBody =  Utility.parsePostRequest(Utility.getPostRequestBody(reqres.getRequestBody()));
             print(postBody.toString())  ;
@@ -62,8 +54,8 @@ public class MyHttpServer {
             OutputStream response = reqres.getResponseBody();
             StringBuilder paths = new StringBuilder() ;
 
-            for(String songPath : allSongs){
-                paths.append(songPath + "\n") ;
+            for(File songPath : mp3Files){
+                paths.append(songPath.toPath().toString() + "\n") ;
             }
 
             System.out.println("\n paths String = " + paths);

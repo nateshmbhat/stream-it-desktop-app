@@ -1,5 +1,6 @@
 package com.company.mzaink;
 
+import com.company.nateshmbhat.streamIt.server.MyHttpServer;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -14,8 +15,8 @@ public class Main extends Application {
         primaryStage.setTitle("Hello World");
         primaryStage.setScene(new Scene(root, 800, 400));
         primaryStage.show();
+        MyHttpServer.startServer();
     }
-
 
     public static void main(String[] args) {
         launch(args);

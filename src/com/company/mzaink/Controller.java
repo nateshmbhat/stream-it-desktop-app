@@ -9,6 +9,8 @@ import javafx.stage.DirectoryChooser;
 import java.io.File;
 import java.util.List;
 
+
+
 public class Controller {
       private static  List<File> fileList;
 
@@ -29,7 +31,7 @@ public class Controller {
       public void handleContinueButtonClick() {
             directoryChooser = new DirectoryChooser();
             directoryChooser.setTitle("Select the root folder you want to add to your playlist.");
-            directoryChooser.setInitialDirectory(new File("/home"));
+            directoryChooser.setInitialDirectory(new File(System.getProperty("user.home"))) ;
             fileList = recursivePrintClass.getFiles(directoryChooser.showDialog(mainGridPane.getScene().getWindow()));
             System.out.println("******************************************************");
             if (fileList != null) {

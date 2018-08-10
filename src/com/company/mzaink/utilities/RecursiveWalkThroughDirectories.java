@@ -9,6 +9,9 @@ import java.util.List;
      * the files with .mp4 extension and puts them into a ArrayList.
 */
 
+
+// TODO : optimise the recusion method speed
+
 public class RecursiveWalkThroughDirectories {
       private List<File> fileList = new ArrayList<>();
 
@@ -46,12 +49,20 @@ public class RecursiveWalkThroughDirectories {
                         if (f.getName().charAt(0) != '.') {
 //                              System.out.println(f.getName());
                               String[] extensions = f.getName().split("[.]");
-                              if (containsMP4(extensions)) {
+                              if (containsMP3(extensions)) {
                                     fileList.add(f);
                               }
                         }
                   }
             }
+      }
+
+
+      private boolean containsMP3(String[] extensions) {
+            for (String ext : extensions) {
+                  if (ext.equals("mp3")) return true;
+            }
+            return false;
       }
 
       private boolean containsMP4(String[] extensions) {
