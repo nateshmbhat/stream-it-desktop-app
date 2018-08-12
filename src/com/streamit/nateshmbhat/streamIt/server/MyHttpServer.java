@@ -6,6 +6,8 @@ import com.sun.net.httpserver.HttpHandler;
 import com.sun.net.httpserver.HttpServer;
 
 
+import javax.rmi.CORBA.Util;
+import javax.swing.*;
 import java.io.*;
 import java.net.InetSocketAddress;
 import java.nio.file.Files;
@@ -28,10 +30,35 @@ public class MyHttpServer {
                   e.printStackTrace();
             }
 
+            Utility.getAudioMetaData("C:\\Users\\Natesh\\Desktop\\ae watan testing .mp3") ;
+
             server.createContext("/getFile", new GetFile());
             server.createContext("/getSongs", new GetSongs());
+            server.createContext("/getSongInfo", new GetSongInfo());
             server.setExecutor(null); // creates a default executor
             server.start();
+      }
+
+      static class GetSongInfo implements HttpHandler{
+            @Override
+            public void handle(HttpExchange httpExchange) throws IOException {
+
+                  print("handling GetSongInfo") ;
+
+                  OutputStream os = httpExchange.getResponseBody();
+
+                  String queryParams = httpExchange.getRequestURI().getQuery();
+
+                  print("Query params = " + queryParams);
+
+                  String songMetadata = Utility.getAudioMetaData(queryParams) ;
+
+                  PrintWriter printWriter = new PrintWriter(os) ;
+
+                  httpExchange.sendResponseHeaders(200 , songMetadata.length());
+                  printWriter.write(songMetadata) ;
+                  printWriter.close();
+            }
       }
 
 
@@ -41,7 +68,6 @@ public class MyHttpServer {
             @Override
             public void handle(HttpExchange reqres) throws IOException {
 
-//          TODO : Call method to get an ArrayList of fullpath names : Sadiq call ur method here
                   //Done.
                   if (Controller.getFilesFromFX() != null) {
                         mp3Files = Controller.getFilesFromFX();
