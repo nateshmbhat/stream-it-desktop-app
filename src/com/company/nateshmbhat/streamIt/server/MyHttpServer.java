@@ -41,7 +41,6 @@ public class MyHttpServer {
         @Override
         public void handle(HttpExchange reqres) throws IOException {
 
-//          TODO : Call method to get an ArrayList of fullpath names : Sadiq call ur method here
             if(Controller.getFilesFromFX() != null) {
                 mp3Files = Controller.getFilesFromFX();
             }
