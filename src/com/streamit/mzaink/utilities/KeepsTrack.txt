@@ -1,0 +1,27 @@
+public void createPlayConsoleScene() throws IOException{
+FXMLLoader fxmlLoader = new FXMLLoader();
+Parent root = fxmlLoader.load(getClass().getResource("PlayConsole.fxml"));
+
+Stage stage = (Stage) mainGridPane.getScene().getWindow();
+stage.setTitle("Play console");
+stage.setScene(new Scene(root, 800, 400));
+stage.show();
+//            Main.primaryStage.setTitle("Play Console");
+//            Main.primaryStage.setScene(new Scene(root, 800, 400));
+//            Main.primaryStage.show();
+}
+
+
+
+//Let's try
+public void createPlayConsoleStage() throws  IOException{
+FXMLLoader fxmlLoader = new FXMLLoader();
+Parent root = fxmlLoader.load(getClass().getResource("PlayConsole.fxml"));
+
+Stage playConsoleStage = new Stage();
+playConsoleStage.setTitle("Play Console");
+
+Scene playConsoleScene = new Scene(root, 800, 400);
+playConsoleStage.setScene(playConsoleScene);
+playConsoleStage.show();
+}
