@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe0fa41c-51b0-456f-99ba-f6543b728730" name="Default Changelist" comment="Removed tcp socket classes">
+    <list default="true" id="fe0fa41c-51b0-456f-99ba-f6543b728730" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/streamit/mzaink/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/streamit/mzaink/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/streamit/mzaink/MainWindow.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/streamit/mzaink/PlayConsole.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/streamit/mzaink/PlayConsoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/streamit/mzaink/utilities/FindFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/streamit/mzaink/utilities/KeepsTrack.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/streamit/nateshmbhat/streamIt/server/MyHttpServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/nateshmbhat/streamIt/server/MyHttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/nateshmbhat/streamIt/server/MyHttpServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/mzaink/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/mzaink/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/mzaink/sample.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/mzaink/utilities/RecursiveWalkThroughDirectories.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/nateshmbhat/streamIt/server/MyHttpServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/nateshmbhat/streamIt/server/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/streamit/nateshmbhat/streamIt/server/Utility.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,41 +83,66 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="fxml" value="3" />
-          <entry key="java" value="11" />
+          <entry key="fxml" value="4" />
+          <entry key="java" value="15" />
+          <entry key="txt" value="1" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="11" />
-          <entry key="XML" value="5" />
+          <entry key="JAVA" value="15" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="XML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="4892" />
-          <entry key="txt" value="33" />
+          <entry key="txt" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="4892" />
-          <entry key="PLAIN_TEXT" value="33" />
+          <entry key="PLAIN_TEXT" value="39" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/nateshmbhat/streamIt/server/MyHttpServer.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/streamit/nateshmbhat/streamIt/server/MyHttpServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="64" column="26" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="476">
+              <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/streamit/mzaink/utilities/FindFiles.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/streamit/mzaink/PlayConsole.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-84" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/streamit/nateshmbhat/streamIt/server/Utility.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -172,20 +212,20 @@
               <item name="Stream It Server" type="b2602c69:ProjectViewProjectNode" />
               <item name="Stream It Server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="streamit" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Stream It Server" type="b2602c69:ProjectViewProjectNode" />
               <item name="Stream It Server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="streamit" type="462c0819:PsiDirectoryNode" />
               <item name="mzaink" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Stream It Server" type="b2602c69:ProjectViewProjectNode" />
               <item name="Stream It Server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="streamit" type="462c0819:PsiDirectoryNode" />
               <item name="mzaink" type="462c0819:PsiDirectoryNode" />
               <item name="utilities" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -193,7 +233,7 @@
               <item name="Stream It Server" type="b2602c69:ProjectViewProjectNode" />
               <item name="Stream It Server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="streamit" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -209,7 +249,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Natesh/IdeaProjects/Stream It Server/src/com/company/mzaink/Main.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534085465271" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534087006375" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
@@ -227,7 +267,7 @@
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.mzaink.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.streamit.mzaink.Main" />
       <module name="Stream It Server" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -278,7 +318,7 @@
       <workItem from="1533803048652" duration="12551000" />
       <workItem from="1533839692599" duration="101000" />
       <workItem from="1533916923330" duration="5758000" />
-      <workItem from="1534085049286" duration="228000" />
+      <workItem from="1534085049286" duration="1694000" />
     </task>
     <task id="LOCAL-00001" summary="Removed tcp socket classes">
       <created>1533754213038</created>
@@ -291,7 +331,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42614000" />
+    <option name="totallyTimeSpent" value="44002000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -306,7 +346,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22921109" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20788912" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -469,12 +509,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/nateshmbhat/streamIt/server/MyHttpServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="980">
-          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+        <state relative-caret-position="504">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/streamit/nateshmbhat/streamIt/server/Utility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/streamit/nateshmbhat/streamIt/server/MyHttpServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/streamit/mzaink/utilities/KeepsTrack.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/streamit/mzaink/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-840">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/streamit/mzaink/utilities/FindFiles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/streamit/mzaink/PlayConsole.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-84" />
       </provider>
     </entry>
   </component>
