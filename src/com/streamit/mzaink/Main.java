@@ -14,7 +14,7 @@ public class Main extends Application {
       @Override
       public void start(Stage primaryStage) throws Exception {
             Parent root = FXMLLoader.load(getClass().getResource("MainWindow.fxml"));
-            primaryStage.setTitle("Hello World");
+            primaryStage.setTitle("Stream It ©");
 
             //TODO: Try keeping the main window smaller in size.
             primaryStage.setMaximized(true);
