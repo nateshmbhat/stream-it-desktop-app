@@ -7,6 +7,8 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+import static java.lang.System.exit;
+
 public class Main extends Application {
 
       @Override
@@ -20,6 +22,14 @@ public class Main extends Application {
 //            primaryStage.setScene(new Scene(root, 800, 400));
             primaryStage.show();
             MyHttpServer.startServer();
+      }
+
+
+      @Override
+      public void stop() throws Exception {
+            super.stop();
+            System.out.println("closed ! ") ;
+            exit(0) ;
       }
 
       public static void main(String[] args) {
