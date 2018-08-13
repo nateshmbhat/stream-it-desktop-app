@@ -27,7 +27,7 @@ public class MyHttpServer {
         return myIp;
     }
 
-    public String getLocalIp() {
+    public static String getLocalIp() {
         String ip = "";
         try (final DatagramSocket socket = new DatagramSocket()) {
             socket.connect(InetAddress.getByName("8.8.8.8"), 10002);
@@ -47,7 +47,7 @@ public class MyHttpServer {
 
         try {
             server = HttpServer.create(new InetSocketAddress(myPort), 0);
-            myIp = getMyIp() ;
+            myIp = getLocalIp() ;
             print("Server started at : " + myIp + " , port = " + myPort ) ;
         } catch (IOException e) {
             e.printStackTrace();
