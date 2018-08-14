@@ -5,7 +5,6 @@ import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 import com.sun.net.httpserver.HttpServer;
 
-
 import javax.rmi.CORBA.Util;
 import javax.swing.*;
 import java.io.*;
@@ -16,7 +15,8 @@ import java.util.HashMap;
 import java.util.List;
 
 public class MyHttpServer {
-    private static int myPort = 8090;
+
+    private static int myPort = 45672;
     private static String myIp;
 
     public static int getMyPort() {
@@ -39,7 +39,6 @@ public class MyHttpServer {
         }
         return ip;
     }
-
 
     public static void startServer() {
         print(File.separator);
