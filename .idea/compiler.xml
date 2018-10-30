@@ -2,7 +2,7 @@
 <project version="4">
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="Stream It Server" options="--add-modules=javafx.base,javafx.fxml,javafx.controls,javafx.graphics --add-exports=java.base/sun.security.action=ALL-UNNAMED" />
+      <module name="Stream It Server" options="--add-modules=javafx.base,javafx.fxml,javafx.controls,javafx.graphics,jdk.httpserver,java.corba --add-exports=java.base/sun.security.action=ALL-UNNAMED" />
     </option>
   </component>
 </project>

@@ -21,9 +21,9 @@ public class FindFiles {
       private static void recursiveWalk(File directory) {
             File[] subFiles = directory.listFiles();
             for (File f : subFiles) {
-                  if (f.isFile() && (isMusicFile(f) ) ){
+                  if (f.isFile() && (isMusicFile(f))) {
                         fileList.add(f);
-                  }else if (f.isDirectory()) {
+                  } else if (f.isDirectory()) {
                         recursiveWalk(f);
                   }
             }

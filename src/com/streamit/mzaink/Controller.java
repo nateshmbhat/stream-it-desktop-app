@@ -66,6 +66,7 @@ public class Controller {
             } else {
                   // TODO : Populate a ListView using the names of the music files.
                   //TODO : Job Done. Now work on optimizations.
+
                   for (File f : musicFiles) {
                         System.out.println(f.getName());
                   }
@@ -76,8 +77,6 @@ public class Controller {
                   } catch (IOException e) {
                         e.printStackTrace();
                   }
-
-
             }
       }
 
@@ -95,7 +94,8 @@ public class Controller {
 
             stage.setTitle("Play console");
             stage.setMaximized(true);
-            stage.setScene(new Scene(root, stage.getWidth(), stage.getHeight()));
+            Scene scene = new Scene(root, stage.getWidth(), stage.getHeight());
+            stage.setScene(scene);
             stage.show();
       }
 
