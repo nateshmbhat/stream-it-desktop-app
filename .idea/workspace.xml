@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe0fa41c-51b0-456f-99ba-f6543b728730" name="Default Changelist" comment="Removed tcp socket classes" />
+    <list default="true" id="fe0fa41c-51b0-456f-99ba-f6543b728730" name="Default Changelist" comment="Removed tcp socket classes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/streamit/mzaink/PlayConsoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/streamit/mzaink/PlayConsoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/streamit/mzaink/listStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/streamit/mzaink/listStyles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/streamit/mzaink/utilities/FindFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/streamit/mzaink/utilities/FindFiles.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -99,40 +104,40 @@
     <session id="613722717">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.32" value="1" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.32" value="2" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="117" />
+          <entry key="css" value="202" />
           <entry key="fxml" value="973" />
-          <entry key="java" value="1634" />
+          <entry key="java" value="1729" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="117" />
-          <entry key="JAVA" value="1634" />
+          <entry key="CSS" value="202" />
+          <entry key="JAVA" value="1729" />
           <entry key="XML" value="973" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="1" />
+          <entry key="css" value="2" />
           <entry key="fxml" value="4" />
-          <entry key="java" value="11" />
+          <entry key="java" value="12" />
           <entry key="txt" value="1" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="1" />
-          <entry key="JAVA" value="11" />
+          <entry key="CSS" value="2" />
+          <entry key="JAVA" value="12" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="7" />
         </counts>
@@ -146,7 +151,7 @@
           <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
-              <caret line="7" column="68" lean-forward="true" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
+              <caret line="7" column="68" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -154,17 +159,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/streamit/mzaink/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
+            <state relative-caret-position="371">
               <caret line="109" column="31" selection-start-line="109" selection-start-column="31" selection-end-line="109" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/streamit/mzaink/utilities/FindFiles.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-351">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/streamit/mzaink/PlayConsoleController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="646">
+              <caret line="34" column="51" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -173,9 +187,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/streamit/mzaink/listStyles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/streamit/mzaink/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="181">
               <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
             </state>
           </provider>
@@ -227,12 +250,12 @@
         <option value="$PROJECT_DIR$/src/com/streamit/mzaink/Main.java" />
         <option value="$PROJECT_DIR$/src/com/streamit/nateshmbhat/streamIt/server/MyHttpServer.java" />
         <option value="$PROJECT_DIR$/src/com/streamit/mzaink/utilities/RetrieveMusic.java" />
-        <option value="$PROJECT_DIR$/src/com/streamit/mzaink/utilities/FindFiles.java" />
         <option value="$PROJECT_DIR$/src/com/streamit/mzaink/Controller.java" />
-        <option value="$PROJECT_DIR$/src/com/streamit/mzaink/listStyles.css" />
         <option value="$PROJECT_DIR$/src/com/streamit/mzaink/PlayConsole.fxml" />
         <option value="$PROJECT_DIR$/src/com/streamit/mzaink/MainWindow.fxml" />
         <option value="$PROJECT_DIR$/src/com/streamit/mzaink/PlayConsoleController.java" />
+        <option value="$PROJECT_DIR$/src/com/streamit/mzaink/listStyles.css" />
+        <option value="$PROJECT_DIR$/src/com/streamit/mzaink/utilities/FindFiles.java" />
       </list>
     </option>
   </component>
@@ -243,18 +266,17 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1366" />
-    <option name="y" value="-2" />
-    <option name="width" value="1600" />
-    <option name="height" value="902" />
+    <option name="y" value="25" />
+    <option name="width" value="1366" />
+    <option name="height" value="743" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -305,7 +327,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Natesh/IdeaProjects/Stream It Server/src/com/company/mzaink/Main.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540914607849" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540914987587" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Project" />
@@ -387,7 +409,8 @@
       <workItem from="1534269006576" duration="1968000" />
       <workItem from="1538974610889" duration="1027000" />
       <workItem from="1540521722254" duration="1650000" />
-      <workItem from="1540906768077" duration="7673000" />
+      <workItem from="1540906768077" duration="8063000" />
+      <workItem from="1540920019884" duration="3250000" />
     </task>
     <task id="LOCAL-00001" summary="Removed tcp socket classes">
       <created>1533754213038</created>
@@ -400,7 +423,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77013000" />
+    <option name="totallyTimeSpent" value="80653000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -412,10 +435,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1366" y="-2" width="1600" height="902" extended-state="6" />
+    <frame x="0" y="25" width="1366" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.496114" visible="true" weight="0.1981982" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.496114" visible="true" weight="0.20151515" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -424,8 +447,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.39248705" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3976684" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.39151713" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3964111" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
@@ -548,9 +571,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1672">
           <caret line="103" column="33" selection-start-line="103" selection-start-column="33" selection-end-line="103" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -566,13 +586,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/streamit/mzaink/utilities/RetrieveMusic.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/streamit/mzaink/utilities/FindFiles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/streamit/nateshmbhat/streamIt/server/MyHttpServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="557">
@@ -583,50 +596,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/streamit/mzaink/listStyles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/streamit/mzaink/PlayConsole.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/streamit/mzaink/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/streamit/mzaink/MainWindow.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" column="68" lean-forward="true" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
+          <caret line="7" column="68" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/streamit/mzaink/Controller.java">
+    <entry file="file://$PROJECT_DIR$/src/com/streamit/mzaink/listStyles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="109" column="31" selection-start-line="109" selection-start-column="31" selection-end-line="109" selection-end-column="31" />
+        <state relative-caret-position="114">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/streamit/mzaink/PlayConsoleController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="646">
+          <caret line="34" column="51" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/streamit/mzaink/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/streamit/mzaink/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="109" column="31" selection-start-line="109" selection-start-column="31" selection-end-line="109" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/streamit/mzaink/utilities/FindFiles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-351">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>

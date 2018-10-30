@@ -31,11 +31,11 @@ public class PlayConsoleController {
                   musicFileNames.add(f.getName());
             }
             if (listView != null) {
+                  listView.getStylesheets().add(getClass().getResource("listStyles.css").toExternalForm());
                   listView.setItems(musicFileNames);
                   /**
                    * Style sheets added
                    */
-//                  listView.getStylesheets().add(getClass().getResource("listStyles.css").toExternalForm());
             } else
                   System.out.println("Empty list.");
       }
@@ -52,7 +52,6 @@ public class PlayConsoleController {
             else {
 
             }
-//            System.exit(0);
       }
 
 }

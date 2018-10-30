@@ -33,7 +33,7 @@ public class FindFiles {
             String[] extensions = fileName.getName().split("[.]");
             for (String e : extensions) {
                   switch (e.toLowerCase()) {
-                        case "mp4":
+//                        case "mp4":
                         case "mp3":
                         case "wav":
                         case "wma":
