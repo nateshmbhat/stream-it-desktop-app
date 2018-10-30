@@ -6,12 +6,11 @@ package com.streamit.mzaink;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
-import javafx.scene.control.Button;
-import javafx.scene.control.ListView;
-import javafx.scene.control.TextArea;
+import javafx.scene.control.*;
 
 import java.io.File;
 import java.util.List;
+import java.util.Optional;
 
 public class PlayConsoleController {
 
@@ -42,7 +41,18 @@ public class PlayConsoleController {
       }
 
       public void setCloseButton() {
-            System.exit(0);
+            Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
+            alert.setHeaderText("Sure you want to exit? Streaming shall stop!");
+            alert.setContentText("We shall miss you!");
+            Optional<ButtonType> buttonType = alert.showAndWait();
+            if(buttonType.isPresent() && buttonType.get().getText().equals("OK")){
+                  System.out.println("Button Ok pressed.");
+                  System.exit(0);
+            }
+            else {
+
+            }
+//            System.exit(0);
       }
 
 }
