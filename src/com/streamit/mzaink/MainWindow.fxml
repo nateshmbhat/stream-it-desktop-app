@@ -5,7 +5,7 @@
 
 <GridPane fx:controller="com.streamit.mzaink.Controller" xmlns:fx="http://javafx.com/fxml"
           alignment="center" hgap="10" vgap="10"
-          style="-fx-background-image: url('https://goo.gl/yemxAB')"
+          style="-fx-background-image: url('/com/streamit/mzaink/res/mainBackgroundTwo.png'); -fx-background-size: cover"
           fx:id="mainGridPane">
 
       <Label

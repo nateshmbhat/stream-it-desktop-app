@@ -5,13 +5,14 @@
 <GridPane xmlns="http://javafx.com/javafx"
           xmlns:fx="http://javafx.com/fxml"
           fx:controller="com.streamit.mzaink.PlayConsoleController"
-          style="-fx-background-image: url('https://goo.gl/KWdpau')"
+          style="-fx-background-image: url('/com/streamit/mzaink/res/consoleImage.jpg'); -fx-background-size: cover"
           alignment="CENTER"
           prefWidth="1000">
       <ListView fx:id="listView" GridPane.rowIndex="0" GridPane.columnIndex="0"
-                style="-fx-background-color: black;" prefWidth="1000">
+                style="-fx-background-color: grey; -fx-opacity: 0.9" prefWidth="1000">
 
       </ListView>
+      <!--https://goo.gl/8RJqTA-->
 
       <Separator GridPane.columnIndex="0" GridPane.rowIndex="1"/>
 

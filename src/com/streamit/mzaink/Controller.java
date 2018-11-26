@@ -61,7 +61,7 @@ public class Controller {
                   createAlert("No directory selected.",
                           "Select a directory to include music files.");
             } else if (musicFiles.isEmpty()) {
-                  createAlert("No music files found.",
+                  createAlert("No music files found in this directory.",
                           "Select another folder containing music files.");
             } else {
                   // TODO : Populate a ListView using the names of the music files.
